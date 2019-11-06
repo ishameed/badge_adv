@@ -6,6 +6,6 @@ install:
   - pip install pytest-cov
   - pip install coveralls
 script:
-  - make test --cov=YourModule/
+  - make test --cov=badge_adv/
 after_success:
   - coveralls
