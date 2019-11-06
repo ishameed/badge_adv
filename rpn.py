@@ -16,6 +16,9 @@ def calculate(arg):
             arg1 = stack.pop()
             result = arg1 - arg2
             stack.append(result)
+        
+        if token == '*':
+            stack.append(arg2)
 
         else:
             stack.append(int(token))
