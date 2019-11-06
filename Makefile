@@ -1,4 +1,4 @@
-Test:
+test:
 	python3 -m unittest
 
 
